@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #ccc; */
+    overflow: hidden;
+}
+
+.links {
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 44px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.links a {
+    background-color: #455A64;
+    width: 120px;
+    height: 44px;
+    padding: 5px 15px;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+    transition: 0.1s;
+}
+
+.links a:hover {
+    background-color: #263136;
+}
+
+.links a:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 2px solid white;
+}
+
+.links a:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.links i {
+    font-size: 20px;
+}
+
+.search {
+
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 700px;
+
+}
+
+.name {
+    font-size: 92px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+.name p span:nth-child(1) {
+    color: #4285F4
+}
+
+.name p span:nth-child(2) {
+    color: #DB4437
+}
+
+.name p span:nth-child(3) {
+    color: #F4B400
+}
+
+.name p span:nth-child(4) {
+    color: #4285F4
+}
+
+.name p span:nth-child(5) {
+    color: #0F9D58
+}
+
+.name p span:nth-child(6) {
+    color: #DB4437
+}
+
+.advText {
+    position: absolute;
+    right: 25%;
+    top: 85%;
+    font-size: 16px;
+}
+
+
+form {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 10px;
+    outline-style: none;
+    border-radius: 20px;
+    font-size: 17px;
+    border: none;
+}
+
+#search {
+    width: 600px;
+    height: 44px;
+    padding-left: 20px;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.22);
+}
+
+#search:focus {
+    -webkit-box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.25);
+}
+
+#search:hover {
+    -webkit-box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+
+#submit {
+    width: 150px;
+    height: 34px;
+    margin-top: 28px;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.22);
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.22);
+}
+
+.advance {
+    width: 75vw;
+    margin-top: 40px;
+    margin-left: 15%;
+
+}
+
+#advance {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.advInput {
+    width: 70%;
+    height: 41px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.advInput label {
+    height: 27px;
+    line-height: 27px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.advInput>input {
+    width: 570px;
+    height: 27px;
+    border-radius: 0;
+    -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+.advInput>input:focus {
+    border: 1px solid #4d90fe;
+    -webkit-box-shadow: inset 0px 31px 2px -29px rgba(4, 1, 17, 0.13);
+    box-shadow: inset 0px 31px 2px -29px rgba(4, 1, 17, 0.13);
+}
+
+.advInput.btn {
+    display: block;
+    text-align: right;
+}
+
+#submit1 {
+    width: 183px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    background: #4d90fe;
+    color: white;
+
+
+}
+
+#submit1:hover {
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search engine</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="links">
+            <a href="index.html"><i class="fas fa-arrow-left"></i> Back</a>
+
+        </div>
+        <div class="search">
+            <div class="name">
+                <p><span>S</span><span>e</span><span>a</span><span>r</span><span>c</span><span>h</span>
+                </p>
+                <div class="advText">ADVANCE</div>
+            </div>
+        </div>
+
+        <div class="advance">
+            <form id='advance' action="https://google.com/search" name="f">
+                <div class="advInput">
+                    <label for="input1">all these words:</label>
+                    <input type="text" name="as_q" id='input1'>
+                </div>
+                <div class="advInput">
+                    <label for="input2">this exact word or phrase:</label>
+                    <input type="text" name="as_epq" id='input2'>
+                </div>
+                <div class="advInput">
+                    <label for="input3">any of these words:</label>
+                    <input type="text" name="as_oq" id='input3'>
+                </div>
+                <div class="advInput">
+                    <label for="input4">none of these words:</label>
+                    <input type="text" name="as_eq" id='input4'>
+
+                </div>
+                <div class="advInput btn">
+                    <input id="submit1" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
